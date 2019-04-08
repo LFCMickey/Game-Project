@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public int BuildingsCrushed;
+    public Text BuildingsCount; 
     public Slider Speed;
     public int SpeedBought = 0;
     bool paused = false;
@@ -12,6 +14,7 @@ public class UIManager : MonoBehaviour
     public GameObject Player;
     void Update()
     {
+        BuildingsCount.text = "Buildings Crushed: " + BuildingsCrushed;
         Movement Motion = Player.GetComponent<Movement>();
         Speed.value = Motion.speed;
         if (Input.GetButtonDown("pauseButton"))

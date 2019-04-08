@@ -1,0 +1,10 @@
+Add your work: git add .
+Commit to push: git commit -m "Stuff goes here"
+Push your work: git push
+
+
+Always do
+
+git pull
+
+before working!
