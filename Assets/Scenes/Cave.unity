@@ -37296,7 +37296,7 @@ GameObject:
   - component: {fileID: 7460139678726999058}
   - component: {fileID: 3847595946621850963}
   m_Layer: 0
-  m_Name: Centre
+  m_Name: Grasshopper
   m_TagString: SmallBug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37329,7 +37329,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0

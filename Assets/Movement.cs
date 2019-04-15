@@ -47,7 +47,12 @@ public class Movement : MonoBehaviour
 
             if (isGrounded)
             {
-                body.AddForce(transform.up * jumpForce);
+                if (gameObject.name == "Grasshopper")
+                {
+                    body.AddForce(transform.up * -jumpForce);
+                }
+                else
+                    body.AddForce(transform.up * jumpForce);
             }
         }
         Vector3 velocity = (transform.forward * vertical) * speed * Time.fixedDeltaTime;
