@@ -39,6 +39,12 @@ public class Movement : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         if (Input.GetAxis("Jump") > 0)
         {
+            if (gameObject.tag == "SmallBug")
+            {
+                print(isGrounded);
+                print(transform.up * jumpForce);
+            }
+
             if (isGrounded)
             {
                 body.AddForce(transform.up * jumpForce);

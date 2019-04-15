@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: d7e83351a5746e04696147438ba9d26c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group
+    100004: joint1
+    100006: joint10
+    100008: joint11
+    100010: joint12
+    100012: joint13
+    100014: joint13 1
+    100016: joint14
+    100018: joint14 1
+    100020: joint15
+    100022: joint15 1
+    100024: joint16
+    100026: joint2
+    100028: joint3
+    100030: joint4
+    100032: joint5
+    100034: joint6
+    100036: joint6 1
+    100038: joint6 2
+    100040: joint6 3
+    100042: joint7
+    100044: joint7 1
+    100046: joint7 2
+    100048: joint7 3
+    100050: joint8
+    100052: joint8 1
+    100054: joint8 2
+    100056: joint8 3
+    100058: joint9
+    100060: pasted__pSphere5
+    100062: pCone1
+    100064: pCube11
+    100066: pCube12
+    100068: pCube14
+    100070: pCube15
+    100072: pCube16
+    100074: pCube17
+    100076: pCube18
+    100078: pCube19
+    100080: pCube2
+    100082: pCube20
+    100084: pCube21
+    100086: pCube22
+    100088: pCube23
+    100090: pCube24
+    100092: pCube25
+    100094: pCube26
+    100096: pCube4
+    100098: pCube7
+    100100: pCube8
+    100102: pCube9
+    100104: pSphere1
+    100106: pSphere2
+    100108: pSphere3
+    100110: pSphere4
+    100112: pSphere5
+    400000: //RootNode
+    400002: group
+    400004: joint1
+    400006: joint10
+    400008: joint11
+    400010: joint12
+    400012: joint13
+    400014: joint13 1
+    400016: joint14
+    400018: joint14 1
+    400020: joint15
+    400022: joint15 1
+    400024: joint16
+    400026: joint2
+    400028: joint3
+    400030: joint4
+    400032: joint5
+    400034: joint6
+    400036: joint6 1
+    400038: joint6 2
+    400040: joint6 3
+    400042: joint7
+    400044: joint7 1
+    400046: joint7 2
+    400048: joint7 3
+    400050: joint8
+    400052: joint8 1
+    400054: joint8 2
+    400056: joint8 3
+    400058: joint9
+    400060: pasted__pSphere5
+    400062: pCone1
+    400064: pCube11
+    400066: pCube12
+    400068: pCube14
+    400070: pCube15
+    400072: pCube16
+    400074: pCube17
+    400076: pCube18
+    400078: pCube19
+    400080: pCube2
+    400082: pCube20
+    400084: pCube21
+    400086: pCube22
+    400088: pCube23
+    400090: pCube24
+    400092: pCube25
+    400094: pCube26
+    400096: pCube4
+    400098: pCube7
+    400100: pCube8
+    400102: pCube9
+    400104: pSphere1
+    400106: pSphere2
+    400108: pSphere3
+    400110: pSphere4
+    400112: pSphere5
+    2100000: MetalBody
+    2100002: RedLegs
+    2100004: lambert2
+    2100006: BlueEyes
+    2300000: pCone1
+    2300002: pSphere3
+    3300000: pCone1
+    3300002: pSphere3
+    4300000: pSphere1
+    4300002: pSphere2
+    4300004: pCube2
+    4300006: pCube4
+    4300008: pCube7
+    4300010: pCube8
+    4300012: pCube9
+    4300014: pCube11
+    4300016: pCube12
+    4300018: pCube14
+    4300020: pCube15
+    4300022: pCube16
+    4300024: pCube17
+    4300026: pCube18
+    4300028: pCube19
+    4300030: pCube20
+    4300032: pCube21
+    4300034: pCone1
+    4300036: pCube22
+    4300038: pCube23
+    4300040: pCube24
+    4300042: pSphere3
+    4300044: pSphere4
+    4300046: pCube25
+    4300048: pCube26
+    4300050: pasted__pSphere5
+    9500000: //RootNode
+    13700000: pasted__pSphere5
+    13700002: pCube11
+    13700004: pCube12
+    13700006: pCube14
+    13700008: pCube15
+    13700010: pCube16
+    13700012: pCube17
+    13700014: pCube18
+    13700016: pCube19
+    13700018: pCube2
+    13700020: pCube20
+    13700022: pCube21
+    13700024: pCube22
+    13700026: pCube23
+    13700028: pCube24
+    13700030: pCube25
+    13700032: pCube26
+    13700034: pCube4
+    13700036: pCube7
+    13700038: pCube8
+    13700040: pCube9
+    13700042: pSphere1
+    13700044: pSphere2
+    13700046: pSphere4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

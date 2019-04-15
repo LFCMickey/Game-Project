@@ -26,7 +26,7 @@ public class ThirdPersonRay : MonoBehaviour
             bool hit = Physics.Raycast(ray, out hitInfo, range);
             GameObject _target = hitInfo.transform.gameObject;
             if (_target != null)
-                Debug.Log(_target);
+              //  Debug.Log(_target);
                 
             if (_target.tag == "Door")
             {
@@ -48,7 +48,7 @@ public class ThirdPersonRay : MonoBehaviour
                 
                 UIManager IUE = UI.GetComponent<UIManager>();
                
-                if (_target.name == "Ball")
+                if (_target.name.Contains ("Ball"))
                 {
                     //IUE.Inventory[1] = _target.name;
                     IUE.Amount[0] += 1;

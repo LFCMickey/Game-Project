@@ -10,6 +10,7 @@ public class BugHealth : MonoBehaviour
     public float Health = 100;
     public float damage = 25f;
     private float _currentHealth;
+    public GameObject SmallBug;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class BugHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Mount Mounted = GetComponent<Mount>();
+        Mount Mounted = SmallBug.GetComponent<Mount>();
         if (Mounted.SmallBugMounted)
         {
             HealthBar.transform.localScale = new Vector3(1, 1, 1);
