@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Movement : MonoBehaviour
 {
 
@@ -41,8 +42,8 @@ public class Movement : MonoBehaviour
         {
             if (gameObject.tag == "SmallBug")
             {
-                print(isGrounded);
-                print(transform.up * jumpForce);
+                //print(isGrounded);
+              //  print(transform.up * jumpForce);
             }
 
             if (isGrounded)

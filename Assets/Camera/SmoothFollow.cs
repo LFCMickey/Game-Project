@@ -6,6 +6,7 @@ public class SmoothFollow : MonoBehaviour
 
     public bool shouldRotate = true;
 
+    public GameObject SmallBug;
     // The target we are following
     public Transform target;
     // The distance in the x-z plane to the target
@@ -32,6 +33,7 @@ public class SmoothFollow : MonoBehaviour
 
     void LateUpdate()
     {
+        
         if (target)
         {
                 //Moves the Camera Forward and back on scroll
@@ -65,6 +67,21 @@ public class SmoothFollow : MonoBehaviour
                 // Always look at the target
                 if (shouldRotate)
                     transform.LookAt(target);
+
+
             }
+        Mount mount = SmallBug.GetComponent<Mount>();
+        if (mount.SmallBugMounted)
+        {
+            LowHeight = 2;
+            MaxHeight = 3;
+            distance = 4.5f;
+        }
+        else
+        {
+            LowHeight = 0;
+            MaxHeight = 1;
+            distance = 2;
+        }
     }
 }

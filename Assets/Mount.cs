@@ -39,12 +39,14 @@ public class Mount : MonoBehaviour
             player.transform.parent = SmallBug.transform;
             if (gameObject.tag == "SmallBug")
             {
+               
                 FollowTarget.target = SmallBug.transform;
-               // transform.parent = player.transform;
+                print(FollowTarget.target);
+                // transform.parent = player.transform;
                 Bmotion.enabled = true;
+                Pmotion.enabled = false;
             }
             // print("im here");
-            Pmotion.enabled = false;
             if (gameObject.tag == "Player")
             {
                
@@ -55,7 +57,7 @@ public class Mount : MonoBehaviour
                // transform.position = SmallBug.transform.position + new Vector3(0, 0, 1.5f);
             }
         }
-        else
+        else if (SmallBugMounted == false)
         {
             Bmotion.enabled = false;
            Pmotion.enabled = true;
