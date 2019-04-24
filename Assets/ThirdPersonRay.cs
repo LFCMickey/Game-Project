@@ -18,6 +18,7 @@ public class ThirdPersonRay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //SpawnButton spawnbutton = GetComponent<>
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hitInfo = new RaycastHit();
@@ -42,6 +43,10 @@ public class ThirdPersonRay : MonoBehaviour
                 PMount.mount(_target, playerObject);
                 BMount.mount(_target, playerObject);
 
+            }
+            if (_target.tag == "Finish")
+            {
+               // Clicked();
             }
             if (_target.tag == "PickUp")
             {

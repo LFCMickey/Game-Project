@@ -5,11 +5,10 @@ using UnityEngine;
 public class SpawnButton : MonoBehaviour
 {
     public Transform SpawnTransform;
-    public Transform GroundPos;
-    public float Smooth;
+    //public Transform GroundPos;
+   // public float Smooth;
     public float pushDistance;
-    [SerializeField] private GameObject enemyPrefab;
-    private GameObject _enemy;
+    public GameObject Player ;
     public void Clicked()
     {
         StartCoroutine(Push());
@@ -18,7 +17,10 @@ public class SpawnButton : MonoBehaviour
             transform.position += new Vector3(pushDistance, 0, 0);
             yield return new WaitForSeconds(1.0f);
             transform.position -= new Vector3(pushDistance, 0, 0);
+
+            Player.transform.position = SpawnTransform.position;
         }
+
     }
     // Start is called before the first frame update
     void Start()
